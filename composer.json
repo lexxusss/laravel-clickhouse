@@ -8,6 +8,12 @@
     "clickhouse",
     "eloquent"
   ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/lexxusss/laravel-clickhouse"
+    }
+  ],
   "require": {
     "php": ">=7.1",
     "laravel/framework": "^5.5",
