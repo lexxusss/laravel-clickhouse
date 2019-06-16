@@ -1,5 +1,6 @@
 {
-  "name": "esazykin/laravel-clickhouse",
+  "name": "lexxusss/laravel-clickhouse",
+  "description": "The Driver for Laravel Clickhouse ORM.",
   "type": "library",
   "license": "MIT",
   "keywords": [
@@ -9,7 +10,7 @@
   ],
   "require": {
     "php": ">=7.1",
-    "laravel/framework": "5.5.*",
+    "laravel/framework": "^5.5",
     "esazykin/clickhouse-builder": "^1.1"
   },
   "require-dev": {
@@ -19,12 +20,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Esazykin\\LaravelClickHouse\\": "src/"
+      "Lexxusss\\LaravelClickHouse\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Esazykin\\LaravelClickHouse\\Tests\\": "tests/"
+      "Lexxusss\\LaravelClickHouse\\Tests\\": "tests/"
     }
   },
   "scripts": {
