@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Esazykin\LaravelClickHouse\Tests;
+namespace Lexxusss\LaravelClickHouse\Tests;
 
-use Esazykin\LaravelClickHouse\Database\Eloquent\Model;
+use Lexxusss\LaravelClickHouse\Database\Eloquent\Model;
 
 /**
  * @property int id
