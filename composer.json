@@ -10,8 +10,16 @@
   ],
   "repositories": [
     {
-      "type": "git",
-      "url": "https://github.com/lexxusss/laravel-clickhouse"
+      "type":"package",
+      "package": {
+        "name": "lexxusss/laravel-clickhouse",
+        "version":"master",
+        "source": {
+          "url": "https://github.com/lexxusss/laravel-clickhouse.git",
+          "type": "git",
+          "reference":"master"
+        }
+      }
     }
   ],
   "require": {
