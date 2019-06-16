@@ -9,6 +9,10 @@ use Illuminate\Database\DatabaseManager;
 use Esazykin\LaravelClickHouse\Database\Connection;
 use Esazykin\LaravelClickHouse\Database\Eloquent\Model;
 
+/**
+ * Class ClickHouseServiceProvider
+ * @package Esazykin\LaravelClickHouse
+ */
 class ClickHouseServiceProvider extends ServiceProvider
 {
     public function boot(): void
